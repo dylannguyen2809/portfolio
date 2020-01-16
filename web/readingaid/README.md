@@ -1,0 +1,3 @@
+As part of my 9-month-long MYP Personal Project assigment from school, I decided to create something that addresses a cause near and dear to my heart - English education for foreign students. So, after an extended brainstorming process, I decided to create an online book club for ESL students. Problem was, I hadn't the foggiest idea of how to use HTML or CSS, or any other web scripting language. So over the course of the next few months, I set out to teach myself web programming and create a product. I also had to figure out stuff like FTP to get it onto a webpage, and SQL to store and fetch user data. It all ultimately culminated in these files.
+
+You can find the website at www.readingaid.site. Feel free to sign up and look around! There's heaps of stuff to do.
