@@ -7,6 +7,8 @@
 
 int r = 2;
 int b = 2;
+
+//decides how red the pixel should be
 unsigned char stepsToRed (int steps) {
 	unsigned char intensity;
 	if(steps < 85){
@@ -19,6 +21,7 @@ unsigned char stepsToRed (int steps) {
 	return intensity;
 }
 
+//decides how blue the pixel should be
 unsigned char stepsToBlue (int steps) {
 	unsigned char intensity;
 	if(steps < 85){
@@ -31,6 +34,7 @@ unsigned char stepsToBlue (int steps) {
 	return intensity;
 }
 
+//decides how green the pixel should be
 unsigned char stepsToGreen (int steps) {
 	unsigned char intensity;
 	if(steps < 127){
