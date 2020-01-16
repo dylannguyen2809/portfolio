@@ -1,0 +1,179 @@
+body {
+    font-family: sans-serif;
+    background-color: #DDF1FF;
+    line-height: 1;
+}
+
+.selected {
+    color: #DDF1FF;
+}
+
+nav {
+    z-index: 2;
+    margin: 0 auto;
+    background-color: #C498FF;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 3px solid #1D5FE8; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: 0;
+    margin-top: -7px;
+    opacity: 0.9;
+    
+}
+
+nav > h1 {
+    font-family: 'Comfortaa', sans-serif;
+    color: #3F1CE8;
+    display: inline;
+}
+
+nav > ul {
+    display: inline;
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    text-align: center;
+    padding-top: 0 auto;
+    padding-bottom: 0 auto;
+}
+
+nav > ul > li {
+    display: inline-block;
+    color: #3F1CE8;
+    padding-right: 10px;
+}
+
+nav > ul > li > a {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:visited {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #DDF1FF;
+}
+
+#splash {
+    background-image: url(images/thought-catalog-575829-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 99.5%;
+    height: 300px;
+    text-align: center;
+    border: 3px solid #1D5FE8;
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#splash > h1 {
+    margin-top: 60px;
+    color: #DDF1FF;
+    /*
+        CSS hack taken from: https://wpshout.com/quick-guides/create-text-outline-css
+    */
+    text-shadow:
+		-1px -1px 0 #1D5FE8,
+		1px -1px 0 #1D5FE8,
+		-1px 1px 0 #1D5FE8,
+		1px 1px 0 #1D5FE8;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#splash > h3 {
+    color: #1D5FE8;
+    /*
+        CSS hack taken from: https://wpshout.com/quick-guides/create-text-outline-css
+    */
+    text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
+}
+
+h1 {
+    color: #3F1CE8;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p {
+    color: #1D5FE8;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: #3F1CE8;
+}
+
+img {
+    margin-left: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+#main {
+    border: 3px solid #1D5FE8;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    height: 600px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+#aside {
+    float: right;
+    border-right: 3px solid #1D5FE8;
+    border-bottom: 2.5px solid #1D5FE8;
+    border-bottom-right-radius: 10px;
+    width: 37.5%;
+    margin: 0px;
+}
+
+#poll {
+    height: 242px;
+    border-bottom: 2.3px solid #1D5FE8;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+#leaderboards {
+    height: 242.5px;
+    border-bottom: 2.3px solid #1D5FE8;
+    padding: 5px;
+    text-align: center;
+}
+
+#general {
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    background-color: #3F1CE8;
+    color: #DDF1FF;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#footer > p {
+    color: #DDF1FF;
+}

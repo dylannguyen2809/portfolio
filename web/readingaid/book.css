@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    background-color: #DDF1FF;
+    line-height: 1;
+}
+
+h1, h3 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.selected {
+    color: #DDF1FF;
+}
+
+nav {
+    z-index: 2;
+    margin: 0 auto;
+    background-color: #C498FF;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 3px solid #1D5FE8; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: 0;
+    margin-top: -7px;
+    opacity: 0.9;
+    
+}
+
+nav > h1 {
+    font-family: 'Comfortaa', sans-serif;
+    color: #3F1CE8;
+    display: inline;
+}
+
+nav > ul {
+    display: inline;
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    text-align: center;
+    padding-top: 0 auto;
+    padding-bottom: 0 auto;
+}
+
+nav > ul > li {
+    display: inline-block;
+    color: #3F1CE8;
+    padding-right: 10px;
+}
+
+nav > ul > li > a {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:visited {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #DDF1FF;
+}
+
+nav > h1 > a, nav > h1 > a:visited {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > h1 > a:hover {
+    color: #DDF1FF;
+}
+
+iframe {
+    border: 3px solid #1D5FE8;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 600px;
+    width: 62%;
+}
+
+table {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+th {
+    background-color: #C498FF;
+}
+
+#aside {
+    width: 400px;
+    float: right;
+}
+
+#preview {
+    border: 3px solid #1D5FE8;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#vocab > input > .word {
+    margin: 10px;
+    background-color: #C498FF;
+    border-radius: 5px;
+    color: #DDF1FF;
+    display: inline;
+}
+
+#vocab > input > .def {
+    margin: 10px;
+    background-color: #C498FF;
+    border-radius: 5px;
+    color: #DDF1FF;
+    display: inline;
+}

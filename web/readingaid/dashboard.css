@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    background-color: #DDF1FF;
+    line-height: 1;
+}
+
+h1, h2, h3 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+nav {
+    z-index: 2;
+    margin: 0 auto;
+    background-color: #C498FF;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 3px solid #1D5FE8; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: 0;
+    margin-top: -7px;
+    opacity: 0.9;
+    
+}
+
+nav > h1 {
+    font-family: 'Comfortaa', sans-serif;
+    color: #3F1CE8;
+    display: inline;
+}
+
+nav > ul {
+    display: inline;
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    text-align: center;
+    padding-top: 0 auto;
+    padding-bottom: 0 auto;
+}
+
+nav > ul > li {
+    display: inline-block;
+    color: #3F1CE8;
+    padding-right: 10px;
+}
+
+nav > ul > li > a {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:visited {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #DDF1FF;
+}
+
+nav > h1 > a, nav > h1 > a:visited {
+    color: #3F1CE8;
+    text-decoration: none;
+}
+
+nav > h1 > a:hover {
+    color: #DDF1FF;
+}
+
+.selected {
+    color: #DDF1FF;
+}
+
+#splash {
+    background-color: #1D5FE8;
+    width: 99.5%;
+    height: 100px;
+    line-height: 100px;
+    color: #DDF1FF;
+    text-align: center;
+    border: 3px solid #1D5FE8;
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+form {
+    width: 70%;
+    float: right;
+    height: 370px;
+    background-color: #C498FF;
+    border: 3px solid #C498FF; 
+    color: #3F1CE8;
+    overflow: auto;
+    padding: 10px;
+}
+
+form > p > a {
+    color: #C498FF;
+    text-decoration: none;
+}
+
+form > #bio {
+    display: block;
+    width: 95%;
+    border-radius: 3px;
+    margin: 0 auto;
+    height: 250px;
+    line-height: 1;
+    padding: 5px;
+}
+
+#score {
+    border: 3px solid #C498FF; 
+    background-color: #C498FF;
+    color: #3F1CE8;
+    height: 367px;
+    padding: 10px;
+}
+
+#score > p > a {
+    text-decoration: none;
+    color: #DDF1FF;
+}
