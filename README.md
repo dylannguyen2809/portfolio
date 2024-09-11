@@ -1,11 +1,9 @@
-## Sidefolio - Portfolio website template
+## Dylan Nguyen
 
-As seen on [Aceternity UI](https://ui.aceternity.com/templtes/sidefolio)
+This is my Portfolio website!
 
 ## Built with
 - Next.js
 - Tailwindcss
 - Framer motion
 - MDX
-
-Checkout all the templates at [Aceternity UI](https://ui.aceternity.com/templates)
